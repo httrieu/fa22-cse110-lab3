@@ -13,7 +13,6 @@
                   <li><a href="#Agenda">Agenda</a></li>
                   <li><a href="#PastAgenda">Unfinished Business</a></li>
                   <li><a href="#StartofMeeting">Meeting Start</a></li>
-                  <li><a href="#Comments">Comments/Questions/Concerns</a></li>
                 </ul>
               </nav>
             <header>
@@ -34,7 +33,7 @@
 
                 <h3 id="Agenda">Agenda for the Day</h3>
                 <ol>
-                    <li>Assign Team Roles</li>
+                    <li><strong>Team Roles</strong> (HIGH PRIORITY)</li>
                     <li>Begin Project Brainstorming</li>
                     <li>Determine Budget</li>
                 </ol>
@@ -69,11 +68,106 @@
                 <br>
                 <b>Catherine</b> asked, "do we really have enough money?", to which
                  the group had no answer to.
+                <br>
+                <br>
+                Our placeholder team name is the <em>CSEBallers</em>
             </p>
             </section>
 
             <section>
-                <\<img src="" alt="">
+                <details>
+                    <summary>A Random Image</summary>
+                    <h3>A Mapping Reduction for our Project</h3>
+                    <img src="randomjpg.jpg" alt="A sample proof from CSE105">
+                </details>
+
+                <details>
+                    <summary>A Random Cat</summary>
+                    <h3>Farquad's Cool Cat</h3>
+                    <img src="cat.webp" alt="A lettuce cat with sunglasses">
+                </details>
+            </section>
+
+            <section>
+                <h3>Test Audio</h3>
+                <audio
+                    controls
+                    src="test.m4a">
+                        <a href="test.m4a">
+                            Download audio
+                        </a>
+                </audio>
+
+                <h3>Me Playing Celeste</h3>
+                    <video controls width="500">
+                    <source src="celeste.mp4" type="video/mp4">
+                </video>
+            </section>
+
+            <br>
+            <section>
+                <form>
+                    <fieldset>
+                        <legend>Choose your Major!</legend>
+                            <input type="radio" id="CS" name="Major" value="K">
+                            <label for="Major">CS Major</label><br>
+                            <br>
+                            <input type="radio" id="M-CS" name="Major" value="K">
+                            <label for="Major">Math-CS</label><br>
+                            <br>
+                            <input type="radio" id="CE" name="Major" value="K">
+                            <label for="Major">CE</label><br>
+                    </fieldset>
+    
+                    <fieldset>
+                        <legend>Are you from San Diego?</legend>
+                            <input type="checkbox" id="chk" name="Yes" value="Y">
+                            <label for="chk">Yes!</label><br>
+    
+                            <label for="txt">If not, where?</label><br>
+                            <input type="text" id="txt" name="no" value="N">
+    
+                            <label for="dte">When did you come?</label><br>
+                            <input type="date" id="dte" name="no" value="N">
+                    </fieldset>
+    
+                    <label for="Age">Choose your age range:</label>
+    
+                    <select name="Age" id="age-select">
+                        <option value="">--Please choose an option--</option>
+                        <option value="Young"><18</option>
+                        <option value="College">18-22</option>
+                        <option value="After">>22</option>
+                    </select>
+    
+                    <br>
+    
+                    <label for="About you">Tell us about your favorite game:</label><br>
+    
+                    <textarea id="About you" name="About you"
+                        rows="5" cols="33">
+                        My favorite game is...
+                    </textarea>
+    
+                    <br>
+                    
+                    <label for="Weather">Choose the Weather:</label>
+                    <input list="The Weather" id="Weather" name="Weather">
+    
+                    <datalist id="The Weather">
+                        <option value="Sunny">
+                        <option value="Cloudy">
+                        <option value="Rainy">
+                        <option value="Foggy">
+                    </datalist>
+    
+                    <br>
+    
+                    <button name="button"
+                            type="button">
+                        Click Me!
+                    </button>
+                </form>
             </section>
 
             <footer>
