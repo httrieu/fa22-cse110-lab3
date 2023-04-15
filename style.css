@@ -17,3 +17,11 @@ h2{
 summary{
     color:crimson
 }
+
+/* Background color of the index element and header*/
+.menu{
+    background-color:blanchedalmond;
+}
+h1{
+    background-color:antiquewhite;
+}
