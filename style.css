@@ -1,0 +1,19 @@
+/* Color of the main header */
+h1{
+    color:rgb(37, 81, 138)
+}
+
+/* Color of secondary headings*/
+h2{
+    color:#7231af
+}
+
+/* Color of attendance, agenda, etc headerrs */
+.atten-color{
+    color:hsl(193, 56%, 44%)
+}
+
+/* Color of 'details' dropdowns */
+summary{
+    color:crimson
+}
