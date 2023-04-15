@@ -1,3 +1,3 @@
-# Lab 2 - Starter
+# Lab 3 - Clone
 
-[HTMLWebsite](https://httrieu.github.io/Lab2_Starter/) 
+[NewHTMLWebsite](https://httrieu.github.io/Lab2_Starter/) 
