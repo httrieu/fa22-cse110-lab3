@@ -106,3 +106,13 @@ summary{
 .img2{
     min-height: 300px;
 }
+
+.videopos{
+    position: relative;
+    left: 500px;
+}
+
+.audiopos{
+    position: absolute;
+}
+
