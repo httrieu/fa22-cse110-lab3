@@ -1,27 +1,75 @@
-/* Color of the main header */
+/* main header */
 h1{
-    color:rgb(37, 81, 138)
+    /* change color and background*/
+    color:rgb(37, 81, 138);
+    background-color:antiquewhite;
+
+    border-top-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-right-width: 2px;
+    border-top-color: black;
+    border-bottom-color: black;
+    border-right-color: black;
+    border-left-color: black;
+    border-top-style: dashed;
+    border-left-style: inset;
+    border-right-style: outset;
+    border-bottom-style: dashed;
+    border-bottom-left-radius: 1pc;
+    border-bottom-right-radius: 1pc;
+
+    /* short margin and short padding */
+    margin:50px 200px 50px 320px;
+
+    padding: 10px 10px 10px 10px;
+
+    font-size: 4rem;
 }
 
 /* Color of secondary headings*/
 h2{
-    color:#7231af
+    color:#7231af;
 }
 
 /* Color of attendance, agenda, etc headerrs */
 .atten-color{
-    color:hsl(193, 56%, 44%)
+    color:hsl(193, 56%, 44%);
 }
 
 /* Color of 'details' dropdowns */
 summary{
-    color:crimson
+    color:crimson;
 }
 
 /* Background color of the index element and header*/
 .menu{
     background-color:blanchedalmond;
+
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+    border-radius: 5cm;
+
+    margin-right: 600px;
+    margin-left: 700px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
-h1{
-    background-color:antiquewhite;
+
+.first-p{
+    font-size: 1em;
+    width: 45ch;
+}
+
+.bob{
+    margin: auto;
+}
+
+.agenda{
+    background-color: brown;
+    padding-top: 1.5ex;
+    padding-left: 5ex;
+    padding-bottom: 5ex;
+    padding-right: 5ex;
 }
