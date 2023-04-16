@@ -116,3 +116,13 @@ summary{
     position: absolute;
 }
 
+/* when hovering over 'choose your major' turns violet*/
+.firstfield:hover{
+    color: blueviolet;
+}
+
+/* when clicking on 'random image' turns blue*/
+.det:active{
+    color: blue;
+}
+
