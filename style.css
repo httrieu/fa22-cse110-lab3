@@ -52,21 +52,24 @@ summary{
     border-width: 3px;
     border-radius: 5cm;
 
+    /* margins for the index */
     margin-right: 600px;
     margin-left: 700px;
     margin-top: 50px;
     margin-bottom: 50px;
 }
 
+/*font size and width*/
 .first-p{
     font-size: 1em;
-    width: 45ch;
+    width: 25ch;
 }
 
 .bob{
     margin: auto;
 }
 
+/* long padding */
 .agenda{
     background-color: brown;
     padding-top: 1.5ex;
@@ -75,7 +78,31 @@ summary{
     padding-right: 5ex;
 }
 
+/* text decoration and alignment*/
 .brainstorm{
     text-decoration: underline;
     text-align: center;
+}
+
+/* display nothing */
+.testNone{
+    display: none;
+}
+
+/* display inline-block */
+.testInlineBlock{
+    display:inline-block;
+    width: 25ch;
+    height: 50px;
+}
+
+/* test max and min widths*/
+.img1{
+    max-width: 400px;
+    min-width: 80px;
+    width:2000px;
+}
+
+.img2{
+    min-height: 300px;
 }
