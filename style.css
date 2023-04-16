@@ -25,6 +25,7 @@ h1{
     padding: 10px 10px 10px 10px;
 
     font-size: 4rem;
+    text-align: center;
 }
 
 /* Color of secondary headings*/
@@ -72,4 +73,9 @@ summary{
     padding-left: 5ex;
     padding-bottom: 5ex;
     padding-right: 5ex;
+}
+
+.brainstorm{
+    text-decoration: underline;
+    text-align: center;
 }
