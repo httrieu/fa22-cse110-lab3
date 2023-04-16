@@ -63,6 +63,7 @@ summary{
 .first-p{
     font-size: 1em;
     width: 25ch;
+    display: flex;
 }
 
 .bob{
@@ -124,5 +125,23 @@ summary{
 /* when clicking on 'random image' turns blue*/
 .det:active{
     color: blue;
+}
+
+/* reverses the index (but completely ruins the look)*/
+.menulist{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+/* uses flex on the lists and spaces them evenly*/
+.flextest1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* uses flex on the 'major' but aligns the items to the end*/
+.firstfield{
+    display: flex;
+    align-items:flex-end;
 }
 
