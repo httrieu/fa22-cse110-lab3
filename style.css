@@ -53,7 +53,7 @@ summary{
     border-radius: 5cm;
 
     /* margins for the index */
-    margin-right: 600px;
+    margin-right: 700px;
     margin-left: 700px;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -92,7 +92,7 @@ summary{
 /* display inline-block */
 .testInlineBlock{
     display:inline-block;
-    width: 25ch;
+    width: 40ch;
     height: 50px;
 }
 
@@ -126,3 +126,43 @@ summary{
     color: blue;
 }
 
+/* reverses the index (but completely ruins the look)*/
+.menulist{
+    display: flex;
+    flex-direction:column;
+}
+
+/* uses flex on the lists and spaces them evenly*/
+.flextest1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* uses flex on the 'major' but aligns the items to the end*/
+.firstfield{
+    display: flex;
+    align-items:flex-end;
+}
+
+/* test grid with rows on the queries at the bottom */
+.firstgrid{
+    display: grid;
+    gap: 1rem;
+    grid-template-rows: 1fr 1fr 1fr;
+} 
+
+/* test grid with columns and justify on the paragraphs in the middle*/
+.gridtest{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: end;
+}
+
+/* test grid again on the details with justify center*/
+.media{
+    display:grid;
+    gap:1rem;
+    grid-template-columns: 1fr 1fr;
+    justify-items: center;
+}
