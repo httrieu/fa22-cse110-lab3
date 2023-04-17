@@ -4,6 +4,7 @@ h1{
     color:rgb(37, 81, 138);
     background-color:antiquewhite;
 
+    /* border long hand */
     border-top-width: 2px;
     border-bottom-width: 2px;
     border-left-width: 2px;
@@ -27,6 +28,7 @@ h1{
     font-size: 4rem;
     text-align: center;
 
+    /* font changes */
     font-family: "Chivo Mono";
 }
 
@@ -49,12 +51,13 @@ summary{
 .menu{
     background-color:blanchedalmond;
 
+    /* short hand border */
     border-style: solid;
     border-color: black;
     border-width: 3px;
     border-radius: 5cm;
 
-    /* margins for the index */
+    /* long hand margins for the index */
     margin-right: 700px;
     margin-left: 700px;
     margin-top: 50px;
@@ -109,11 +112,13 @@ summary{
     min-height: 300px;
 }
 
+/* testing relative position */
 .videopos{
     position: relative;
     left: 500px;
 }
 
+/* testing absolute position */
 .audiopos{
     position: absolute;
 }
@@ -180,4 +185,49 @@ summary{
     .headitems{
         color: blue;
     }
+}
+
+/* id selector */
+#StartofMeeting{
+    color:aqua;
+}
+
+/* universal selector */
+*{
+    color:cadetblue;
+}
+
+/* attribute selector */
+a[href*="Past" i] {
+    color: black;
+}
+
+/* selector list */
+ol, ul{
+    font-size:larger;
+}
+
+/* descendant combinator */
+p span {
+    font-size: xx-small;
+}
+
+/* child combinator */
+ul > li {
+    margin: 1rem;
+}
+
+/* general sibling combinator */
+h2 ~ h3{
+    color: violet;
+}
+
+/* adjacent sibling combinator */
+li:first-of-type + li {
+    color:yellowgreen;
+}
+
+/* combining two selectors */
+nav.menu{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
