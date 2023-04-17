@@ -166,3 +166,16 @@ summary{
     grid-template-columns: 1fr 1fr;
     justify-items: center;
 }
+
+/* if the screen width is less than 800px then the header itmes will turn blue */
+@media (max-width: 800px) {
+    .headitems{
+        color: blue;
+    }
+}
+
+@media print {
+    .headitems{
+        color: blue;
+    }
+}
